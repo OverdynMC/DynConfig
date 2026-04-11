@@ -10,7 +10,7 @@ import java.util.List;
 
 @ConfigResource(
     path = "test-config.yml",
-    missingKeyPolicy = MissingKeyPolicy.WRITE_DEFAULT //
+    missingKeyPolicy = MissingKeyPolicy.WRITE_DEFAULT //@
 )
 public class TestConfig {
 

@@ -8,7 +8,7 @@ public @interface Comment {
 
     Entry[] value();
 
-    @Retention(RetentionPolicy.RUNTIME)
+    @Retention(RetentionPolicy.)
     @Target({})
     @interface Entry {
         String lang();      // "ru", "en", "de", ...
